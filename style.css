@@ -28,3 +28,27 @@
   vertical-align: middle;
   color: #fff;
 }
+.navbar-default {
+  background-color: #0f0e9f;
+  border-color: #0f0e9f;
+  border-radius: 0;
+}
+.holder {
+  max-width: 1083px;
+  margin: 0 auto;
+}
+.nav {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Nunito", Arial, Helvetica, "sans-serif";
+}
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  border-radius: 0;
+  height: 45px;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #0f0e9f;
+  background-color: #fff;
+}
