@@ -28,9 +28,14 @@
   vertical-align: middle;
   color: #fff;
 }
+.navbar {
+    position: relative;
+    max-height: 45px;
+    margin-bottom: 0;
+    border: none;
+}
 .navbar-default {
   background-color: #0f0e9f;
-  border-color: #0f0e9f;
   border-radius: 0;
 }
 .holder {
@@ -51,4 +56,10 @@
 .navbar-default .navbar-nav li a:hover {
   color: #0f0e9f;
   background-color: #fff;
+}
+main {
+  background: #e9e9f6;
+}
+main .holder {
+  background: #fff;
 }
