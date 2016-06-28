@@ -14,7 +14,7 @@ header .top-section .title {
   position: absolute;
   width: 600px;
   height: 600px;
-  right: 100px;
+  right: 50px;
   top: -230px;
   border-radius: 50%;
   text-align: center;
@@ -77,7 +77,7 @@ main {
 main .holder {
   background: #fff;
   box-shadow: 0 0 16px 4px rgba(0, 0, 0, .15);
-  height: 1000px;
+  height: 750px;
 }
 footer {
   border-top: 18px solid #0f0e9f;
@@ -104,4 +104,41 @@ footer .logo {
   vertical-align: bottom;
   letter-spacing: 0;
   margin: 0 0 2px 10px;
+}
+@media screen and (max-width: 1280px) {
+  header .top-section .logo img {
+    width: 200px;
+  }
+  header .top-section .title {
+    width: 350px;
+    height: 350px;
+    top: -125px;
+  }
+  header .top-section .title h1 {
+    font-size: 28px;
+    line-height: 28px;
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .top-section {
+    padding: 10px 0;
+  }
+  header .top-section .logo img {
+    width: 130px;
+  }
+  header .top-section .title {
+    width: 160px;
+    height: 160px;
+    top: -55px;
+    right: 10px;
+  }
+  header .top-section .title h1 {
+    font-size: 13px;
+    line-height: 13px;
+    padding-top: 55px;
+  }
+  .navbar-nav li {
+    width: 100%;
+  }
 }
