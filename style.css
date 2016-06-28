@@ -29,10 +29,10 @@
   color: #fff;
 }
 .navbar {
-    position: relative;
-    max-height: 45px;
-    margin-bottom: 0;
-    border: none;
+  position: relative;
+  max-height: 45px;
+  margin-bottom: 0;
+  border: none;
 }
 .navbar-default {
   background-color: #0f0e9f;
@@ -63,4 +63,25 @@ main {
 main .holder {
   background: #fff;
   box-shadow: 0 0 16px 4px rgba(0, 0, 0, .15);
+  height: 1000px;
+}
+footer {
+  border-top: 18px solid #0f0e9f;
+  background: #fff;
+}
+footer .holder {
+  padding: 31px 67px 134px;
+  text-align: center;
+}
+footer .wrap {
+  display: inline-block;
+  vertical-align: bottom;
+  letter-spacing: 0;
+  font-family: Arial, Helvetica, "sans-serif";
+  width: 88%;
+}
+footer .wrap .copyright a {
+  color: #7a0026;
+  text-transform: uppercase;
+  font-weight: bold;
 }
