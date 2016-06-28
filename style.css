@@ -30,7 +30,6 @@
 }
 .navbar {
   position: relative;
-  max-height: 45px;
   margin-bottom: 0;
   border: none;
 }
@@ -42,16 +41,29 @@
   max-width: 1083px;
   margin: 0 auto;
 }
+.navbar-collapse {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
 .nav {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 18px;
   font-family: "Nunito", Arial, Helvetica, "sans-serif";
 }
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav li {
+  width: 20%;
+}
 .navbar-default .navbar-nav li a {
   color: #fff;
   border-radius: 0;
-  height: 50px;
 }
 .navbar-default .navbar-nav li a:hover {
   color: #0f0e9f;
